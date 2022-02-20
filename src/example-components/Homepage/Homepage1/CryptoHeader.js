@@ -87,7 +87,8 @@ export default function LivePreviewExample() {
             <li className="mr-0">
               <NavLink
                 className="rounded-sm py-1 px-3 font-size-xs text-uppercase"
-                to="/PageLoginCover">
+                // to="/PageLoginCover">
+                to="/Homepage">
                 Members Login
               </NavLink>
             </li>
@@ -118,28 +119,32 @@ export default function LivePreviewExample() {
             <ul className="d-flex nav nav-neutral-first justify-content-center">
               <li>
                 <NavLink
-                  to="/Overview"
+                  // to="/Overview"
+                  to="/Homepage"
                   className="font-weight-bold rounded-sm text-white px-3">
                   Contacts
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/Overview"
+                  // to="/Overview"
+                  to="/Homepage"
                   className="font-weight-bold rounded-sm text-white px-3">
                   Whitepaper
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/BuySell"
+                  // to="/BuySell"
+                  to="/Homepage"
                   className="font-weight-bold rounded-sm text-white px-3">
                   Coin Market
                 </NavLink>
               </li>
               <li>
                 <NavLink
-                  to="/Settings"
+                  // to="/Settings"
+                  to="/Homepage"
                   className="font-weight-bold rounded-sm text-white px-3">
                   Social Project
                 </NavLink>
@@ -257,7 +262,8 @@ export default function LivePreviewExample() {
             <span className="d-none d-lg-block">
               <Button
                 component={NavLink}
-                to="/PageRegisterCover"
+                // to="/PageRegisterCover"
+                to="/Homepage"
                 className="rounded-sm text-nowrap font-size-xs font-weight-bold text-uppercase shadow-second-sm btn-warning">
                 Register
               </Button>
@@ -297,7 +303,8 @@ export default function LivePreviewExample() {
                     <ListItem
                       button
                       component={NavLink}
-                      to="/Overview"
+                      // to="/Overview"
+                      to="/Homepage"
                       className="px-4 d-flex align-items-center">
                       <span>Overview</span>
                       <FontAwesomeIcon
@@ -308,7 +315,8 @@ export default function LivePreviewExample() {
                     <ListItem
                       button
                       component={NavLink}
-                      to="/BuySell"
+                      // to="/BuySell"
+                      to="/Homepage"
                       className="px-4 d-flex align-items-center">
                       <span>Buy/Sell</span>
                       <FontAwesomeIcon
@@ -319,7 +327,8 @@ export default function LivePreviewExample() {
                     <ListItem
                       button
                       component={NavLink}
-                      to="/Settings"
+                      // to="/Settings"
+                      to="/Homepage"
                       className="px-4 d-flex align-items-center">
                       <span>Settings</span>
                       <FontAwesomeIcon
