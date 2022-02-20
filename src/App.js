@@ -260,7 +260,8 @@ class App extends Component {
   render() {
     return (
       <Provider store={store}>
-        <BrowserRouter basename="/bamburgh-react-crypto-application-material-ui-pro/">
+        {/* <BrowserRouter basename="/"> */}
+        <BrowserRouter>
           <ScrollToTop>
             <Routes />
           </ScrollToTop>

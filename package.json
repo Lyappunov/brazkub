@@ -1,16 +1,9 @@
 {
-  "name": "bamburgh-react-crypto-application-material-ui-pro",
-  "version": "2.0.0",
-  "title": "Bamburgh React Crypto Application with Material-UI PRO",
-  "homepage": "https://demo.uifort.com/bamburgh-react-crypto-application-material-ui-pro",
-  "description": "Easy to customize application inspired by the cryptocurrency products niche. Start working on your product today with this amazing, clean and feature-packed niche template.",
+  "name": "brazkub_token_site",
+  "version": "1.0.0",
+  "title": "BRAZKUB",
   "author": {
-    "name": "UiFort.com",
-    "url": "https://uifort.com"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/uifort/bamburgh-react-crypto-application-material-ui-pro"
+    "name": "Ibrahin"
   },
   "dependencies": {
     "react-dom": "16.13.1",
@@ -73,7 +66,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "CI=false react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "format": "./node_modules/.bin/eslint --fix --ignore-path .gitignore ."
