@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Grid, Container } from '@material-ui/core';
+import { Grid, Container, Button } from '@material-ui/core';
 
 import Slider from 'react-slick';
 
@@ -33,9 +33,13 @@ export default function LivePreviewExample() {
                   </p>
                 </div>
                 <div className="d-block mt-4">
-                  <a style={{ backgroundColor: 'SlateBlue', border: '1px solid SlateBlue', borderRadius:'30px', padding:'15px 20px' }} href='https://www.mintme.com/token/BRAZKUB%20ERC20/trade' target="blank">
-                  <label style={{ fontSize: '17px', color:'white'}}>  Brazkub Token  Mintme Exchange </label>
-                  </a>
+                  <Button
+                    className="rounded-sm font-weight-bold shadow-second-sm btn-first"
+                  >
+                    <a  href='https://www.mintme.com/token/BRAZKUB%20ERC20/trade' target="blank">
+                    <label style={{ fontSize: '17px', color:'white'}}>  Brazkub Token  Mintme Exchange </label>
+                    </a>
+                  </Button>
                 </div>
               </div>
             </Grid>

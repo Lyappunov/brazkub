@@ -73,7 +73,7 @@ export default function LivePreviewExample() {
       <div className="py-4 feature-box">
         <Container className="py-5">
           <div className="mb-4 text-center">
-            <h6 className="font-weight-bold text-second display-3" style={{ fontSize: '80px' }}>
+            <h6 className="display-3 mb-3 font-weight-bold" style={{ fontSize: '80px' }}>
               Access analytical market & price data
             </h6>
             <Grid item md={11} lg={10} className="mx-auto">
