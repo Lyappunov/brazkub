@@ -33,14 +33,14 @@ export default function LivePreviewExample() {
                       <List
                         component="div"
                         className="nav-transparent-alt flex-column">
-                        <ListItem
+                        {/* <ListItem
                           component="a"
                           button
                           href="#/"
                           onClick={(e) => e.preventDefault()}
                           className="px-0 py-1 text-black-50">
                           Products
-                        </ListItem>
+                        </ListItem> */}
                         <ListItem
                           component="a"
                           button
@@ -96,7 +96,7 @@ export default function LivePreviewExample() {
                       </List>
                     </div>
                   </Grid>
-                  <Grid item md={4}>
+                  {/* <Grid item md={4}>
                     <div className="pl-0 pl-lg-3">
                       <h6 className="text-black font-weight-bold mb-3">
                         UI Themes
@@ -130,7 +130,7 @@ export default function LivePreviewExample() {
                         </ListItem>
                       </List>
                     </div>
-                  </Grid>
+                  </Grid> */}
                 </Grid>
               </div>
             </Grid>
@@ -229,7 +229,7 @@ export default function LivePreviewExample() {
             </List>
             <div className="divider d-sm-none d-md-block rounded-circle bg-dark opacity-2 mx-auto my-4 w-25" />
             <div className="text-center d-block text-black-50">
-              Copyright &copy; 2020 - UiFort.com
+              Copyright &copy; 2022 - IBRAHIN.com
             </div>
           </div>
         </Container>

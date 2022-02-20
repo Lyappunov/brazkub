@@ -103,7 +103,8 @@ export default function LivePreviewExample() {
                     <div className="pt-3">
                       <Button
                         component={NavLink}
-                        to="/Overview"
+                        // to="/Overview"
+                        to="/Homepage"
                         size="large"
                         className="rounded-sm font-weight-bold shadow-second-sm btn-first">
                         <span className="btn-wrapper--label">
@@ -115,7 +116,8 @@ export default function LivePreviewExample() {
                       </Button>
                       <Button
                         component={NavLink}
-                        to="/Wallets"
+                        // to="/Wallets"
+                        to="/Homepage"
                         size="large"
                         className="rounded-sm bg-white-10 text-white ml-3">
                         <span>My Wallets</span>

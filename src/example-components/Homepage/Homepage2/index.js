@@ -33,10 +33,9 @@ export default function LivePreviewExample() {
                   </p>
                 </div>
                 <div className="d-block mt-4">
-                  <button style={{ backgroundColor: 'SlateBlue', border: '1px solid SlateBlue', borderRadius:'30px', padding:'1px 20px' }}>
-                  <label style={{ fontSize: '17px', color:'white' }}>  Brazkub Token </label><br />
-                  <label style={{ fontSize: '20px', color:'white' }}> Mintme Exchange </label>
-                  </button>
+                  <a style={{ backgroundColor: 'SlateBlue', border: '1px solid SlateBlue', borderRadius:'30px', padding:'15px 20px' }} href='https://www.mintme.com/token/BRAZKUB%20ERC20/trade' target="blank">
+                  <label style={{ fontSize: '17px', color:'white'}}>  Brazkub Token  Mintme Exchange </label>
+                  </a>
                 </div>
               </div>
             </Grid>
